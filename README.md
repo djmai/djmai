@@ -29,7 +29,7 @@
 
 <hr/>
 
-<details>
+<details open>
   <summary><b>:computer: &nbsp;Main tech knowledge</b></summary>
   <br/>
 
@@ -103,7 +103,7 @@ php, photoshop
 blockchain, cryptocurrencies, cryptography, bitcoin, ethereum 
 -->
 
-<details>
+<details open>
   <summary><b>:brain: &nbsp;Other knowledge, always learning</b></summary>
   <br/>
 
@@ -141,7 +141,7 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 
 </details>
 
-<details>
+<details open>
   <summary><b>:gear: &nbsp;GitHub Statistics</b></summary>
   <br/>
     <p align="center">
