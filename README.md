@@ -68,12 +68,12 @@
 ![PMBOK](https://img.shields.io/badge/PMBOK-DD0031.svg?&style=flat&logo=ddd&logoColor=white)&nbsp;
 ![SCRUM](https://img.shields.io/badge/SCRUM-6DB33F.svg?&style=flat&logo=ddd&logoColor=white)&nbsp;
 
-<!-- 
-Java, JSF, Primefaces, Angular, Spring, Springboot, JPA/Hibernate. 
+<!--
+Java, JSF, Primefaces, Angular, Spring, Springboot, JPA/Hibernate.
 Flutter, GetX, BLoC, MobX.
 GitHub, GitLab, Docker, Ansible
 Kotlin, Firebase.
-Ant, Maven, Gradle, 
+Ant, Maven, Gradle,
 VSCode, Eclipse, IntelliJ IDEA.
 HTML, CSS, JavaScript, TypeScript.
 postgresql, pgadmin, mysql, sqlite.
@@ -83,17 +83,17 @@ linux
 -->
 </details>
 
-<!-- 
+<!--
 jquery, sass
 nestjs, nodejs, redis, nginx,
 rest, graphql, grpc
 apache kafka,
 google cloud plataform, google app engine, aws
-oracle, mariadb, mongodb, 
+oracle, mariadb, mongodb,
 Kubernates, puppet, github actions
 python, c, cpp, arduino
 php, photoshop
-blockchain, cryptocurrencies, cryptography, bitcoin, ethereum 
+blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 -->
 
 <details open>
