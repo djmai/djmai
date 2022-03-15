@@ -32,7 +32,7 @@ rect.headerRect:hover {
 .wave {
   animation: wave 3s linear;
   animation-iteration-count:infinite;
-  fill: #4447e3;  
+  fill: #E43636;  
 }
 
 .wave:hover {
@@ -44,18 +44,18 @@ rect.headerRect:hover {
 }
 
 .drop {
-  fill: #4447e3;
+  fill: #E43636;
   xfill: #99000055;
   animation: drop 8.2s linear infinite normal;
-  stroke: #4447e3;
+  stroke: #E43636;
   stroke-width: 0.5;
   transform: translateY(25px) ;
   transform-box: fill-box;
   transform-origin: 50% 100%;
 }
 .drop1 {
-  
 }
+
 .drop2 {
   animation-delay: 3s;
   animation-duration:5s;
@@ -144,12 +144,11 @@ g.typingUnderline rect {
     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
   </defs> 
 
+  <rect fill="#AAA" fill-opacity="50%" x="0" y="1" width="100%" height="0.4" ></rect>
  
   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
  
-  <rect fill="#AAA" fill-opacity="50%" x="0" y="1" width="100%" height="0.4" ></rect>
-
   <g class="gooeff" filter="url(#goo)">
     <circle class="drop drop1" cx="95" cy="2" r="8.8"  />
     <circle class="drop drop2" cx="35" cy="2.5" r="7.5"  />
@@ -175,46 +174,45 @@ g.typingUnderline rect {
     <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
   </g>  
 
-
 <rect class="headerRect" width="70" height="7.3" rx="1" x="20" y="16.8"/>
 
 <path id="nameTyping">
-  <animate attributeName="d" from="m38,-6 h0" to="m38,-6 h100" dur="9.4s" begin="0s" fill="freeze"/>
+  <animate attributeName="d" from="m33,-6 h0" to="m33,-6 h100" dur="9.4s" begin="0s" fill="freeze"/>
 </path>
 
-<text font-family="Courier New" font-size=".22em" fill="white"
+<text font-family="Courier New" font-size=".18em" fill="white"
       font-weight="bold" letter-spacing="2">
   <textPath xlink:href="#nameTyping" >
-      BRUNO TACCA
+      MIGUEL MARTÍNEZ
   </textPath>
 </text>
 
-<g class="typingUnderline">
-  <rect fill="#FFFFFF" x="69" y="20.5" width="2.5" height="0.4" xlink:href="#underlineTyping">
+<!-- <g class="typingUnderline">
+  <rect fill="#FFFFFF" x="75" y="20.5" width="2.5" height="0.4" xlink:href="#underlineTyping">
       <animate attributeName="visible" from="hidden" to="visible" dur="1s" fill="freeze"/>
   </rect>
-</g>
+</g> -->
 
 <path id="descriptionTyping">
-  <animate attributeName="d" from="m30,-3 h0" to="m30,-3 h100" 
+  <animate attributeName="d" from="m27,-3 h0" to="m27,-3 h100" 
            dur="5.8s" begin="0s" fill="freeze"/>
 </path>
 
-<text x="64" font-family="Helvetica" font-size=".12em" fill="white"
+<text x="60" font-family="Helvetica" font-size=".12em" fill="white"
      text-anchor="end" alignment-baseline="hanging" font-style="italic" > 
   <textPath xlink:href="#descriptionTyping" >
-      Leadership, Architecture Logicielle, Développement, Science &amp; Technologie.
+      Software Architecture, Web and Mobile Developer, Web Design.
   </textPath>
 </text>
 
-<text x="2" y="12" font-family="Helvetica" font-size=".22em"
+<text x="2" y="12" font-family="Helvetica" font-size=".22em" 
       fill="#AAA" font-weight="bold"> 
-      Bonjour!
+      Hi there!
 </text>
 
 <text x="22" y="12" font-family="Helvetica" font-size=".22em"
       fill="#AAA" font-weight="bold"> 
-      Ça va bien?
+      How are you doing?
 </text>
 
 
